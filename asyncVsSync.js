@@ -35,3 +35,5 @@ const content = readFileSync(path.join(__dirname, 'input.txt'), 'utf8')//this re
 console.log("\n Sync : " + content)
 
 //Task 4
+const data = readFileSync(path.join(__dirname, 'data.txt'), 'utf8')//this reads input.txt
+console.log(data)//synchronous
